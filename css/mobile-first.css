@@ -1,0 +1,125 @@
+/* DISPOSITIVOS MÓVEIS */
+
+/* importação da fonte - google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Lato:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* importando icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+
+/* variaveis */
+:root {
+    --principal: #eb1ccc;
+    --secundaria: #95989a;
+    --cor-texto: #fff;
+    --cor-texto-secundaria: #000;
+    --cor-texto-tercearia: #5d5d5d ;   
+}
+
+/*--------------------------------------------------------*/
+
+* {
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/*--- PARTE 1 ----*/
+header { /* cabeçalho geral */
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(../img/hrz-5.jpg);
+    height: 95vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+/* informações do evento */
+#informacoes {
+    width: 80vw;
+    height: 40%;
+}
+
+#informacoes h1 { /* InDecor */
+    color: var(--principal);
+    font-size: 3.5em;
+    padding-bottom: .8em;
+}
+
+#msg { /* um evento para
+    revolucionar
+    sua criatividade */
+    color: var(--cor-texto);
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: .8em;
+}
+
+#msg-data { /* Data do evento: */
+    color: var(--cor-texto);
+    font-size: 1.2em;
+}
+
+#data { /* Domingo, 28 de maio, apartir das 14 hrs.*/
+    color: var(--principal);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* formulário */
+form {
+    width: 80vw;
+    height: 50%;
+    background-color: var(--secundaria);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+legend { /* Preencha o formulário
+    para receber os detalhes
+    do evento */
+    font-size: 1.4em;
+    padding-bottom: 1.2em;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.opcoes { /* opções geral */
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.opcoes p { /* opções de preenchimento */
+    color: var(--cor-texto-tercearia);
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.opcoes input, select {
+    margin-bottom: 0.8em;
+    width: 100%;
+    padding: 0.3em;
+    border-radius: 5px;
+    border: none;
+}
+
+#botão { /* QUERO ME INSCREVER */
+    text-transform: uppercase;
+    background-color: var(--principal);
+    color: var(--cor-texto);
+    font-weight: bold;
+    padding: .7em;
+    opacity: .8;
+    margin-top: 1em;
+}
+
+#botão:hover {
+    opacity: 1;
+}

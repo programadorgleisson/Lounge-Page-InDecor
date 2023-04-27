@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile-first.css">
+    <title>InDecor</title>
+</head>
+<body>
+    <!--PARTE 1: CABEÇALHO-->
+    <header id="cabecalho">
+        <!--informações do evento-->
+        <div id="informacoes">
+            <h1>InDecor</h1>
+
+            <p id="msg">
+                um evento para <br>
+                revolucionar <br> 
+                sua criatividade
+            </p>
+
+            <p id="msg-data">
+                Data do evento:
+            </p>
+
+            <p id="data">
+                Domingo, 28 de maio, apartirdas 14hrs.
+            </p>
+        </div>
+
+        <!------------------------------------------------------------------->
+        
+        <!--formulário-->
+        <form action="#">
+            <div class="opcoes">
+                <legend>
+                    Preencha o formulário <br>
+                    para receber os detalhes <br>
+                    do evento
+                </legend>
+                
+                <!--nome-->
+                <p><label for="nome">Nome</label></p>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome">
+                
+                <!--email-->
+                <p><label for="email">E-mail</label></p>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail">
+                
+                <!--telefone-->
+                <p><label for="telefone">Telefone</label></p>
+                <input type="number" name="telefone" id="itelefone" placeholder="Número de Whatsapp">
+                
+                <!--principal interesse-->
+                <p><label for="interesse">Principal interesse</label></p>
+                <select name="interesse" id="int">
+                    <option value="selecione" selected disabled>--Selecione--</option>
+                    <option value="ap">Apartamento</option>
+                    <option value="cs">Casa</option>
+                    <option value="jd">Jardim</option>
+                    <option value="outros">Outros...</option>
+                </select>
+
+                <input type="submit" value="quero me inscrever" id="botão">
+            </div>
+        </form>
+    </header>
+</body>
+</html>
