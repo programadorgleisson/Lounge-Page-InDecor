@@ -17,3 +17,23 @@
     --cor-texto-tercearia: #5d5d5d ;   
 }
 
+
+
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/* DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/* TVS E OUTRO MAIORES */
+@media screen and (min-width: 1200px) {
+    
+}

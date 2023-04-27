@@ -1,4 +1,4 @@
-/* DISPOSITIVOS MÓVEIS */
+/* DISPOSITIVOS MÓVEIS CELULAR */
 
 /* importação da fonte - google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Lato:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -28,6 +28,7 @@
 
 /*--- PARTE 1 ----*/
 header { /* cabeçalho geral */
+    width: 100vw;
     background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(../img/hrz-5.jpg);
     height: 95vh;
     background-position: center;
@@ -50,9 +51,7 @@ header { /* cabeçalho geral */
     padding-bottom: .8em;
 }
 
-#msg { /* um evento para
-    revolucionar
-    sua criatividade */
+#msg { /* um evento para revolucionar sua criatividade */
     color: var(--cor-texto);
     font-size: 2em;
     font-weight: bolder;
@@ -74,6 +73,7 @@ header { /* cabeçalho geral */
 form {
     width: 80vw;
     height: 50%;
+    margin-bottom: 2em;
     background-color: var(--secundaria);
     border-radius: 5px;
     display: flex;
@@ -122,4 +122,178 @@ legend { /* Preencha o formulário
 
 #botão:hover {
     opacity: 1;
+}
+
+/*-----------------------------------------------------------*/
+
+/* SECTION 2 (CONTEUDO)*/
+#parte-2 { /* fundo */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parte-2 h2 { /* o que você vai aprender: */
+    background-color: var(--secundaria);
+    width: 100vw;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 3em;
+    font-weight: 500;
+}
+
+.imagens { /* imagens redondas */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.msg-conteudo { /* Alguma coisa muito legal,
+    que vai fazer a diferença
+    na vida do participante. */
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+/*-----------------------------------------------------------*/
+
+/* SECTION 3 - (LOCALIZAÇÃO) */
+#parte-3 { /* fundo */
+    width: 100vw;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url(../img/hrz-1.jpg);
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#endereco { /* localização */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#endereco p { /* Rua do evento, 1333 Bairro Abertura: 14h*/
+    color: var(--cor-texto);
+    font-size: 1.3em;
+}
+
+#icone { /* simbolo de localização */
+    color: var(--principal);
+    font-size: 5em;
+}
+
+#inf-local h2 {
+    color: var(--principal);
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+#inf-local p {
+    color: var(--cor-texto);
+    text-align: justify;
+}
+
+/*-----------------------------------------------------------*/
+
+/* SECTION 4 - (AMBIENTES) */
+#parte-4 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3em;
+}
+
+#parte-4 h2 { /* Conheça os ambientes que você vai aprender a decorar. */
+    width: 80vw;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3em;
+}
+
+#parte-4 img { /* imagem */
+    width: 90VW;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#parte-4 ul legend { /* DETALHES / OBJETOS */
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+/*-----------------------------------------------------------*/
+
+/* SECTION 5 - (CTA) */
+#cta {
+    background: linear-gradient(rgb(0, 0, 0, .8), rgb(0, 0, 0, .8)), url(../img/hrz-1.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    gap: 0px 30px; 
+}
+
+#cta p { /* gostou? então se inscreva */
+    color: var(--cor-texto);
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 1em;
+}
+
+#cta input {
+    background-color: var(--principal);
+    width: 80vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    opacity: .8;
+    font-weight: bold;
+    color: var(--cor-texto);
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#cta input:hover {
+    opacity: 1;
+}
+
+/*-----------------------------------------------------------*/
+
+/* FOOTER - (RODAPÉ) */
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-bottom: 8em;
+}
+
+footer h3 { /* InDecor*/
+    color: var(--secundaria);
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+#frase { /* A evolução da decoração de interiores. */
+    color: var(--secundaria);
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+#contato {
+    color: var(--secundaria);
+    margin-bottom: .3em;
 }
