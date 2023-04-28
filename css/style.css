@@ -1,5 +1,13 @@
 /* OUTROS DISPOSITIVOS */
 
+/*
+    Typical Device Breakpoint
+        -> celular (mobile device): 600px até 768px
+        -> tablets: 768px a 992px
+        -> desktop: 993px a 1200
+        -> tvs e mais: 1200 +
+*/
+
 /* importação da fonte - google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Lato:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -20,13 +28,20 @@
 
 
 /* TABLETS */
-
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
 
 /*-------------------------------------------------------------------------------------------*/
 
 /* DESKTOP */
-
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    
+}
 
 /*-------------------------------------------------------------------------------------------*/
 
 /* TVS E OUTRO MAIORES */
+@media screen and (min-width: 1200px) {
+    
+}
