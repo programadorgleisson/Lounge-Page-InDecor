@@ -81,11 +81,9 @@ form {
 }
 
 legend { /* Preencha o formulário para receber os detalhes do evento */
-    font-size: 1.4em;
-    padding-bottom: 1.2em;
+    font-size: 1.5em;
+    padding: 1em 0.5em;
     text-transform: uppercase;
-    text-align: justify;
-    display: no-repeat;
 }
 
 .opcoes { /* opções geral */
@@ -97,12 +95,14 @@ legend { /* Preencha o formulário para receber os detalhes do evento */
     color: var(--cor-texto-tercearia);
     font-weight: bolder;
     font-size: 1em;
+    margin-left: 1em;
 }
 
 .opcoes input, select {
     margin-bottom: 0.8em;
-    width: 100%;
+    width: 85%;
     padding: 0.3em;
+    margin-left: 1em;
     border-radius: 5px;
     border: none;
 }
