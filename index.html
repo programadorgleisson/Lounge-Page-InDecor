@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--MOBILE FIRST -->
-    <link rel="stylesheet" href="css/mobile-first.css">
+    <link rel="stylesheet" href="css/mobile-first.css" media="all">
 
     <!--OUTROS DISPOSITIVOS-->
     <link rel="stylesheet" href="css/style.css">
@@ -20,8 +20,8 @@
             <h1>InDecor</h1>
 
             <p id="msg">
-                um evento para 
-                revolucionar 
+                um evento para <br>
+                revolucionar <br>
                 sua criatividade
             </p>
 
@@ -81,7 +81,7 @@
 
         <div id="conteudo">
             <!--imagem 1-->
-            <div id="img-1">
+            <div id="img-1" class="img">
                 <img src="img/sqr-1.jpg" alt="estante" class="imagens">
                 <p class="msg-conteudo">
                     Alguma coisa muito legal, <br>
@@ -91,7 +91,7 @@
             </div>
 
             <!--imagem 2-->
-            <div id="img-2">
+            <div id="img-2" class="img">
                 <img src="img/sqr-2.jpg" alt="cozinha" class="imagens">
                 <p class="msg-conteudo">
                     Alguma coisa muito legal, <br>
@@ -101,7 +101,7 @@
             </div>
 
             <!--imagem 3-->
-            <div id="img-3">
+            <div id="img-3" class="img">
                 <img src="img/sqr-3.jpg" alt="sala" class="imagens">
                 <p class="msg-conteudo">
                     Alguma coisa muito legal, <br>
@@ -144,39 +144,49 @@
 
 <!--PARTE 4: AMBIENTES -->
     <section id="parte-4">
-        <h2>Conheça os ambientes <br> 
-            que você vai aprender <br> 
-            a decorar.
-        </h2>
-
-        <!--imagem 1-->
-        <img src="img/hrz-3.jpg" alt="sala-iluminada" id="sala-visita">
+        <div class="img-msg">
+            <!--msg-->
+            <h2>Conheça os ambientes <br>
+                que você vai aprender <br>
+                a decorar.
+            </h2>
+            
+            <!--imagem 1-->
+            <img src="img/hrz-3.jpg" alt="sala-iluminada" id="sala-visita">
+        </div>
 
         <!--imagem 2-->
-        <h2 class="titulo-ambiente">Detalhes</h2>
-            <ul>
-                <li>Posicionamento</li>
-                <li>Aproveitamento de espaço</li>
-                <li>Combinação de cores</li>
-                <li>Organização</li>
-                <li><strong>E muito mais...</strong></li>
-            </ul>
-        <img src="img/hrz-4.jpg" alt="sala-jantar">
+        <div class="img-msg">
+                <div id="lista">
+                    <h2 class="titulo-ambiente">Detalhes</h2> 
+                    <ul>
+                        <li>Posicionamento</li>
+                        <li>Aproveitamento de espaço</li>
+                        <li>Combinação de cores</li>
+                        <li>Organização</li>
+                        <li><strong>E muito mais...</strong></li>
+                    </ul>
+                </div>
+            <img src="img/hrz-4.jpg" alt="sala-jantar">
+        </div>
         
         
         <!--imagem 3-->
         
-            <h2 class="titulo-ambiente">Objetos</h2>
-                <ul>
-                    <li>Cadeiras</li>
-                    <li>Mesas</li>
-                    <li>Espelho</li>
-                    <li>Plantas</li>
-                    <li>Cortinas</li>
-                    <li><strong>E muito mais...</strong></li>
-                </ul>
-        
-        <img src="img/hrz-5.jpg" alt="">
+            <div class="img-msg">
+                <div id="lista">
+                <h2 class="titulo-ambiente">Objetos</h2>
+                    <ul>
+                        <li>Cadeiras</li>
+                        <li>Mesas</li>
+                        <li>Espelho</li>
+                        <li>Plantas</li>
+                        <li>Cortinas</li>
+                        <li><strong>E muito mais...</strong></li>
+                    </ul>
+                </div>
+                        <img src="img/hrz-5.jpg" alt="">
+            </div>
     </section>
 
 <!------------------------------------------------------------->

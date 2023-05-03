@@ -69,7 +69,7 @@ header { /* cabeçalho geral */
 
 /* formulário */
 form {
-    width: 90vw;
+    width: 85vw;
     height: auto;
     margin-bottom: 3em;
     background-color: var(--secundaria);

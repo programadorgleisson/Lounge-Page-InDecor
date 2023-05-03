@@ -25,23 +25,327 @@
     --cor-texto-tercearia: #5d5d5d ;   
 }
 
-
+* {
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
 /* TABLETS */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* CABEÇALHO */
+    #msg {
+        display: block;
+        color: white;
+        font-weight: bolder;
+        font-size: 2.5em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+
     
+
+    form {
+        width: 80vw;
+    }
+
+    .opcoes {
+        width: 80vw;
+    }
+
+    .opcoes input {
+        width: 95%;
+    }
+
+    .opcoes select {
+        width: auto;
+    }
+    
+    #botão {
+        width: 50%;
+        display: block;
+        margin: auto;
+        opacity: .8;
+    }
+
+
+    #botão:hover {
+        opacity: 1;
+    }
+
+    /* SECTION 3 - LOCAL DE DESTAQUE */
+    #parte-3 {
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.8em;
+    }
+    
+    #endereco {
+        order: 2;
+        padding-bottom:5em;
+    }
+    
+    #inf-local {
+        order: 1;
+        padding-top: 5em;
+    }
+    
+    #inf-local h2 {
+        margin-bottom: 0;
+    }
+
+    #inf-local p {
+        display: block;
+        color: var(--cor-texto);
+        margin-bottom: 4em;
+    }
 }
+    
 
 /*-------------------------------------------------------------------------------------------*/
 
 /* DESKTOP */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+     /* CABEÇALHO */
+    #msg {
+        display: block;
+        color: white;
+        font-weight: bolder;
+        font-size: 2.5em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+
+    
+
+    form {
+        width: 80vw;
+    }
+
+    legend {
+        font-size: 2em;
+    }
+
+    .opcoes {
+        width: 80vw;
+    }
+
+    .opcoes input {
+        width: 95%;
+    }
+
+    .opcoes select {
+        width: auto;
+    }
+    
+    #botão {
+        width: 50%;
+        display: block;
+        margin: auto;
+        opacity: .8;
+    }
+
+
+    #botão:hover {
+        opacity: 1;
+    }
+
+
+
+    /* SECTION 2 - O QUE VOCÊ VAI APRENDER*/
+    #conteudo {
+        display: flex;
+        justify-content: space-around;
+        gap: 3em;
+    }
+    
+    
+    /* SECTION 3 - LOCAL DE DESTAQUE */
+    #parte-3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.8em;
+    }
+    
+    #endereco {
+        order: 2;
+        padding-bottom:5em;
+    }
+    
+    #inf-local {
+        order: 1;
+        padding-top: 5em;
+    }
+    
+    #inf-local h2 {
+        margin-bottom: 0;
+    }
+
+    #inf-local p {
+        display: block;
+        color: var(--cor-texto);
+        margin-bottom: 4em;
+    }
     
 }
 
+
+    /* SECTION 4 */
+    #parte-4 {
+        margin-top: 10em;
+        height: auto;
+        gap: 10em;
+    }
+
+    #parte-4 img {
+        width: 40vw;
+    }
+
+    
+    #parte-4 h2 {
+        width: 40vw;
+    }
+
+    
+    #parte-4 .img-msg {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #lista {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    #sala-visita {
+        display: block;
+    }
+
+    #cta input {
+        width: 35vw;
+        opacity: .8;
+    }
+
+    #cta input:hover {
+        opacity: 1;
+    }
 /*-------------------------------------------------------------------------------------------*/
 
 /* TVS E OUTRO MAIORES */
 @media screen and (min-width: 1200px) {
+    /* CABEÇALHO */
+    header {
+        width: 100vw;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+    } 
+
+    form {
+        width: auto;
+        height: auto;
+    }
+
+    #msg {
+        display: block;
+        color: var(--cor-texto);
+        font-weight: bolder;
+        font-size: 3em;
+        margin-top: 2em;
+    }
+
+    #informacoes {
+        margin-left: 6em;
+    }
+
+    form {
+        margin-right: 6em;
+        margin-top: 3em;
+    }
+
+     /* SECTION 2 - O QUE VOCÊ VAI APRENDER*/
+     #conteudo {
+        display: flex;
+        justify-content: space-around;
+        gap: 5em;
+    }
+    
+    
+    /* SECTION 3 - LOCAL DE DESTAQUE */
+    #parte-3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.8em;
+    }
+    
+    #endereco {
+        order: 2;
+        padding-bottom:5em;
+    }
+    
+    #inf-local {
+        order: 1;
+        padding-top: 5em;
+    }
+    
+    #inf-local h2 {
+        margin-bottom: 0;
+    }
+
+    #inf-local p {
+        display: block;
+        color: var(--cor-texto);
+        margin-bottom: 4em;
+    }
     
 }
+
+
+    /* SECTION 4 */
+    #parte-4 {
+        margin-top: 10em;
+        height: auto;
+        gap: 10em;
+    }
+
+    #parte-4 img {
+        width: 30vw;
+    }
+
+    
+    #parte-4 h2 {
+        width: 40vw;
+    }
+
+    
+    #parte-4 .img-msg {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #lista {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    #sala-visita {
+        display: block;
+    }
+
+/*--------------------------------------------------------------------------*/
+    
+    #cta input {
+        width: 35vw;
+        opacity: .8;
+    }
+
+    #cta input:hover {
+        opacity: 1;
+    }
